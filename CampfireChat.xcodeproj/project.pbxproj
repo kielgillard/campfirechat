@@ -17,9 +17,9 @@
 		9E776A0913D809AB0075B5BC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		9E776A0A13D809AB0075B5BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		9E776A0B13D809AB0075B5BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9E776A0E13D809AB0075B5BC /* CampfireChat-Info.plist */ = {isa = PBXFileReference; path = "CampfireChat-Info.plist"; sourceTree = "<group>"; };
+		9E776A0E13D809AB0075B5BC /* CampfireChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CampfireChat-Info.plist"; sourceTree = "<group>"; };
 		9E776A1013D809AB0075B5BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9E776A1213D809AB0075B5BC /* CampfireChat-Prefix.pch */ = {isa = PBXFileReference; path = "CampfireChat-Prefix.pch"; sourceTree = "<group>"; };
+		9E776A1213D809AB0075B5BC /* CampfireChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CampfireChat-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
