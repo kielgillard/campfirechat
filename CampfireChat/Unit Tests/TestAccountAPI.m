@@ -33,10 +33,9 @@
 {
     CFCPlugIn *p = [[CFCPlugIn alloc] initWithServiceApplication:nil];
     
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", p.server, @"account.json"]];
-    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:url];
-    [request setValue:[NSString stringWithFormat:@"%@:%@", p.authenticationToken, @"X"] forHTTPHeaderField:@"Authorization"];
-    
+//    NSURL *url = [NSURL URLWithString:@"https://2377aee6086c61880586396725fc1a394ad69571:X@ko.campfirenow.com/room/314457.json"];
+    NSURL *url = [NSURL URLWithString:@"https://2377aee6086c61880586396725fc1a394ad69571:X@ko.campfirenow.com/rooms.json"];
+    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
     NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request delegate:self startImmediately:YES];
     
     while (!continueTest && [[NSRunLoop mainRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]]);
@@ -46,10 +45,10 @@
     [connection release];
 }
 
-- (void)connection:(NSURLConnection *)connection willSendRequestForAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge
-{
-    
-}
+//- (void)connection:(NSURLConnection *)connection willSendRequestForAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge
+//{
+//    
+//}
 
 - (NSInputStream *)connection:(NSURLConnection *)connection needNewBodyStream:(NSURLRequest *)request
 {
@@ -70,12 +69,26 @@
         self.buffer = b;
         [b release];
     }
+    
+    continueTest = YES;
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
 {
     NSString *text = [[NSString alloc] initWithData:self.buffer encoding:NSUTF8StringEncoding];
     NSLog(@"text = %@", text);
+    
+    NSError *error;
+    id obj = [NSJSONSerialization JSONObjectWithData:self.buffer options:NSJSONReadingAllowFragments error:&error];
+    
+    if (obj) {
+        
+        NSLog(@"%@", obj);
+        
+    } else {
+        NSLog(@"%@", error);
+    }
+    
     [text release];
 }
 
