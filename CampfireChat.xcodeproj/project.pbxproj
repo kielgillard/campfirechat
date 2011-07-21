@@ -9,10 +9,30 @@
 /* Begin PBXBuildFile section */
 		9E776A0713D809AB0075B5BC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E776A0613D809AB0075B5BC /* Cocoa.framework */; };
 		9E776A1113D809AB0075B5BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E776A0F13D809AB0075B5BC /* InfoPlist.strings */; };
+		9E776A1A13D80EAC0075B5BC /* CFCPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E776A1913D80EAC0075B5BC /* CFCPlugIn.m */; };
+		9E776A1C13D80F090075B5BC /* IMServicePlugIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E776A1B13D80F090075B5BC /* IMServicePlugIn.framework */; };
+		9E776A2913D81A4A0075B5BC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E776A2813D81A4A0075B5BC /* SenTestingKit.framework */; };
+		9E776A2A13D81A4A0075B5BC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E776A0613D809AB0075B5BC /* Cocoa.framework */; };
+		9E776A3013D81A4A0075B5BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E776A2E13D81A4A0075B5BC /* InfoPlist.strings */; };
+		9E776A3213D81A4B0075B5BC /* CampfireChatTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 9E776A3113D81A4B0075B5BC /* CampfireChatTests.h */; };
+		9E776A3413D81A4B0075B5BC /* CampfireChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E776A3313D81A4B0075B5BC /* CampfireChatTests.m */; };
+		9E776A3913D81A510075B5BC /* TestAccountAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E776A2013D8149B0075B5BC /* TestAccountAPI.m */; };
+		9E776A3F13D81B2B0075B5BC /* CFCPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E776A1913D80EAC0075B5BC /* CFCPlugIn.m */; };
+		9E776A4013D81B380075B5BC /* IMServicePlugIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E776A1B13D80F090075B5BC /* IMServicePlugIn.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9E776A3D13D81AC30075B5BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E7769FA13D809AB0075B5BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E776A0213D809AB0075B5BC;
+			remoteInfo = CampfireChat;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		9E776A0313D809AB0075B5BC /* CampfireChat.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampfireChat.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E776A0313D809AB0075B5BC /* CampfireChat.imserviceplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampfireChat.imserviceplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E776A0613D809AB0075B5BC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		9E776A0913D809AB0075B5BC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		9E776A0A13D809AB0075B5BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -20,6 +40,18 @@
 		9E776A0E13D809AB0075B5BC /* CampfireChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CampfireChat-Info.plist"; sourceTree = "<group>"; };
 		9E776A1013D809AB0075B5BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E776A1213D809AB0075B5BC /* CampfireChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CampfireChat-Prefix.pch"; sourceTree = "<group>"; };
+		9E776A1813D80EAC0075B5BC /* CFCPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCPlugIn.h; sourceTree = "<group>"; };
+		9E776A1913D80EAC0075B5BC /* CFCPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCPlugIn.m; sourceTree = "<group>"; };
+		9E776A1B13D80F090075B5BC /* IMServicePlugIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IMServicePlugIn.framework; path = System/Library/Frameworks/IMServicePlugIn.framework; sourceTree = SDKROOT; };
+		9E776A1F13D8149B0075B5BC /* TestAccountAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAccountAPI.h; sourceTree = "<group>"; };
+		9E776A2013D8149B0075B5BC /* TestAccountAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAccountAPI.m; sourceTree = "<group>"; };
+		9E776A2713D81A4A0075B5BC /* CampfireChatTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampfireChatTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E776A2813D81A4A0075B5BC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9E776A2D13D81A4A0075B5BC /* CampfireChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CampfireChatTests-Info.plist"; sourceTree = "<group>"; };
+		9E776A2F13D81A4A0075B5BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E776A3113D81A4B0075B5BC /* CampfireChatTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CampfireChatTests.h; sourceTree = "<group>"; };
+		9E776A3313D81A4B0075B5BC /* CampfireChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CampfireChatTests.m; sourceTree = "<group>"; };
+		9E776A3513D81A4B0075B5BC /* CampfireChatTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CampfireChatTests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +60,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E776A0713D809AB0075B5BC /* Cocoa.framework in Frameworks */,
+				9E776A1C13D80F090075B5BC /* IMServicePlugIn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E776A2313D81A4A0075B5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E776A2913D81A4A0075B5BC /* SenTestingKit.framework in Frameworks */,
+				9E776A2A13D81A4A0075B5BC /* Cocoa.framework in Frameworks */,
+				9E776A4013D81B380075B5BC /* IMServicePlugIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				9E776A0C13D809AB0075B5BC /* CampfireChat */,
+				9E776A2B13D81A4A0075B5BC /* CampfireChatTests */,
 				9E776A0513D809AB0075B5BC /* Frameworks */,
 				9E776A0413D809AB0075B5BC /* Products */,
 			);
@@ -46,7 +90,8 @@
 		9E776A0413D809AB0075B5BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E776A0313D809AB0075B5BC /* CampfireChat.bundle */,
+				9E776A0313D809AB0075B5BC /* CampfireChat.imserviceplugin */,
+				9E776A2713D81A4A0075B5BC /* CampfireChatTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,7 +99,9 @@
 		9E776A0513D809AB0075B5BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9E776A1B13D80F090075B5BC /* IMServicePlugIn.framework */,
 				9E776A0613D809AB0075B5BC /* Cocoa.framework */,
+				9E776A2813D81A4A0075B5BC /* SenTestingKit.framework */,
 				9E776A0813D809AB0075B5BC /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -74,6 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				9E776A0D13D809AB0075B5BC /* Supporting Files */,
+				9E776A1813D80EAC0075B5BC /* CFCPlugIn.h */,
+				9E776A1913D80EAC0075B5BC /* CFCPlugIn.m */,
+				9E776A1E13D8147B0075B5BC /* Unit Tests */,
 			);
 			path = CampfireChat;
 			sourceTree = "<group>";
@@ -84,6 +134,35 @@
 				9E776A0E13D809AB0075B5BC /* CampfireChat-Info.plist */,
 				9E776A0F13D809AB0075B5BC /* InfoPlist.strings */,
 				9E776A1213D809AB0075B5BC /* CampfireChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E776A1E13D8147B0075B5BC /* Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9E776A1F13D8149B0075B5BC /* TestAccountAPI.h */,
+				9E776A2013D8149B0075B5BC /* TestAccountAPI.m */,
+			);
+			path = "Unit Tests";
+			sourceTree = "<group>";
+		};
+		9E776A2B13D81A4A0075B5BC /* CampfireChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E776A3113D81A4B0075B5BC /* CampfireChatTests.h */,
+				9E776A3313D81A4B0075B5BC /* CampfireChatTests.m */,
+				9E776A2C13D81A4A0075B5BC /* Supporting Files */,
+			);
+			path = CampfireChatTests;
+			sourceTree = "<group>";
+		};
+		9E776A2C13D81A4A0075B5BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E776A2D13D81A4A0075B5BC /* CampfireChatTests-Info.plist */,
+				9E776A2E13D81A4A0075B5BC /* InfoPlist.strings */,
+				9E776A3513D81A4B0075B5BC /* CampfireChatTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -105,7 +184,26 @@
 			);
 			name = CampfireChat;
 			productName = CampfireChat;
-			productReference = 9E776A0313D809AB0075B5BC /* CampfireChat.bundle */;
+			productReference = 9E776A0313D809AB0075B5BC /* CampfireChat.imserviceplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9E776A2613D81A4A0075B5BC /* CampfireChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E776A3613D81A4B0075B5BC /* Build configuration list for PBXNativeTarget "CampfireChatTests" */;
+			buildPhases = (
+				9E776A2213D81A4A0075B5BC /* Sources */,
+				9E776A2313D81A4A0075B5BC /* Frameworks */,
+				9E776A2413D81A4A0075B5BC /* Resources */,
+				9E776A2513D81A4A0075B5BC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E776A3E13D81AC30075B5BC /* PBXTargetDependency */,
+			);
+			name = CampfireChatTests;
+			productName = CampfireChatTests;
+			productReference = 9E776A2713D81A4A0075B5BC /* CampfireChatTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -126,6 +224,7 @@
 			projectRoot = "";
 			targets = (
 				9E776A0213D809AB0075B5BC /* CampfireChat */,
+				9E776A2613D81A4A0075B5BC /* CampfireChatTests */,
 			);
 		};
 /* End PBXProject section */
@@ -139,23 +238,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9E776A2413D81A4A0075B5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E776A3013D81A4A0075B5BC /* InfoPlist.strings in Resources */,
+				9E776A3213D81A4B0075B5BC /* CampfireChatTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E776A2513D81A4A0075B5BC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E7769FF13D809AB0075B5BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E776A1A13D80EAC0075B5BC /* CFCPlugIn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E776A2213D81A4A0075B5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E776A3413D81A4B0075B5BC /* CampfireChatTests.m in Sources */,
+				9E776A3913D81A510075B5BC /* TestAccountAPI.m in Sources */,
+				9E776A3F13D81B2B0075B5BC /* CFCPlugIn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E776A3E13D81AC30075B5BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E776A0213D809AB0075B5BC /* CampfireChat */;
+			targetProxy = 9E776A3D13D81AC30075B5BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9E776A0F13D809AB0075B5BC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9E776A1013D809AB0075B5BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9E776A2E13D81A4A0075B5BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E776A2F13D81A4A0075B5BC /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -216,7 +367,7 @@
 				INFOPLIST_FILE = "CampfireChat/CampfireChat-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = imserviceplugin;
 			};
 			name = Debug;
 		};
@@ -228,7 +379,31 @@
 				INFOPLIST_FILE = "CampfireChat/CampfireChat-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = imserviceplugin;
+			};
+			name = Release;
+		};
+		9E776A3713D81A4B0075B5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CampfireChatTests/CampfireChatTests-Prefix.pch";
+				INFOPLIST_FILE = "CampfireChatTests/CampfireChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9E776A3813D81A4B0075B5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CampfireChatTests/CampfireChatTests-Prefix.pch";
+				INFOPLIST_FILE = "CampfireChatTests/CampfireChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -251,6 +426,16 @@
 				9E776A1713D809AB0075B5BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E776A3613D81A4B0075B5BC /* Build configuration list for PBXNativeTarget "CampfireChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E776A3713D81A4B0075B5BC /* Debug */,
+				9E776A3813D81A4B0075B5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
