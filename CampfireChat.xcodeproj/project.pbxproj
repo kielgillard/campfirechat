@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E776A0713D809AB0075B5BC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E776A0613D809AB0075B5BC /* Cocoa.framework */; };
+		9E776A1113D809AB0075B5BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E776A0F13D809AB0075B5BC /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E776A0313D809AB0075B5BC /* CampfireChat.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampfireChat.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E776A0613D809AB0075B5BC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9E776A0913D809AB0075B5BC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9E776A0A13D809AB0075B5BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9E776A0B13D809AB0075B5BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E776A0E13D809AB0075B5BC /* CampfireChat-Info.plist */ = {isa = PBXFileReference; path = "CampfireChat-Info.plist"; sourceTree = "<group>"; };
+		9E776A1013D809AB0075B5BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E776A1213D809AB0075B5BC /* CampfireChat-Prefix.pch */ = {isa = PBXFileReference; path = "CampfireChat-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E776A0013D809AB0075B5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E776A0713D809AB0075B5BC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E7769F813D809AB0075B5BC = {
+			isa = PBXGroup;
+			children = (
+				9E776A0C13D809AB0075B5BC /* CampfireChat */,
+				9E776A0513D809AB0075B5BC /* Frameworks */,
+				9E776A0413D809AB0075B5BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E776A0413D809AB0075B5BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E776A0313D809AB0075B5BC /* CampfireChat.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E776A0513D809AB0075B5BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E776A0613D809AB0075B5BC /* Cocoa.framework */,
+				9E776A0813D809AB0075B5BC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E776A0813D809AB0075B5BC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E776A0913D809AB0075B5BC /* AppKit.framework */,
+				9E776A0A13D809AB0075B5BC /* CoreData.framework */,
+				9E776A0B13D809AB0075B5BC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9E776A0C13D809AB0075B5BC /* CampfireChat */ = {
+			isa = PBXGroup;
+			children = (
+				9E776A0D13D809AB0075B5BC /* Supporting Files */,
+			);
+			path = CampfireChat;
+			sourceTree = "<group>";
+		};
+		9E776A0D13D809AB0075B5BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E776A0E13D809AB0075B5BC /* CampfireChat-Info.plist */,
+				9E776A0F13D809AB0075B5BC /* InfoPlist.strings */,
+				9E776A1213D809AB0075B5BC /* CampfireChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E776A0213D809AB0075B5BC /* CampfireChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E776A1513D809AB0075B5BC /* Build configuration list for PBXNativeTarget "CampfireChat" */;
+			buildPhases = (
+				9E7769FF13D809AB0075B5BC /* Sources */,
+				9E776A0013D809AB0075B5BC /* Frameworks */,
+				9E776A0113D809AB0075B5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CampfireChat;
+			productName = CampfireChat;
+			productReference = 9E776A0313D809AB0075B5BC /* CampfireChat.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E7769FA13D809AB0075B5BC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9E7769FD13D809AB0075B5BC /* Build configuration list for PBXProject "CampfireChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E7769F813D809AB0075B5BC;
+			productRefGroup = 9E776A0413D809AB0075B5BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E776A0213D809AB0075B5BC /* CampfireChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E776A0113D809AB0075B5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E776A1113D809AB0075B5BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E7769FF13D809AB0075B5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E776A0F13D809AB0075B5BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E776A1013D809AB0075B5BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E776A1313D809AB0075B5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9E776A1413D809AB0075B5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9E776A1613D809AB0075B5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CampfireChat/CampfireChat-Prefix.pch";
+				INFOPLIST_FILE = "CampfireChat/CampfireChat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9E776A1713D809AB0075B5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CampfireChat/CampfireChat-Prefix.pch";
+				INFOPLIST_FILE = "CampfireChat/CampfireChat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E7769FD13D809AB0075B5BC /* Build configuration list for PBXProject "CampfireChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E776A1313D809AB0075B5BC /* Debug */,
+				9E776A1413D809AB0075B5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E776A1513D809AB0075B5BC /* Build configuration list for PBXNativeTarget "CampfireChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E776A1613D809AB0075B5BC /* Debug */,
+				9E776A1713D809AB0075B5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E7769FA13D809AB0075B5BC /* Project object */;
+}
