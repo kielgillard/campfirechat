@@ -19,6 +19,8 @@
 		9E776A3913D81A510075B5BC /* TestAccountAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E776A2013D8149B0075B5BC /* TestAccountAPI.m */; };
 		9E776A3F13D81B2B0075B5BC /* CFCPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E776A1913D80EAC0075B5BC /* CFCPlugIn.m */; };
 		9E776A4013D81B380075B5BC /* IMServicePlugIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E776A1B13D80F090075B5BC /* IMServicePlugIn.framework */; };
+		9EEF88E813D8EAF500DEEA23 /* CFCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEF88E713D8EAF500DEEA23 /* CFCRequest.m */; };
+		9EEF88E913D8EAF500DEEA23 /* CFCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEF88E713D8EAF500DEEA23 /* CFCRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		9E776A3113D81A4B0075B5BC /* CampfireChatTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CampfireChatTests.h; sourceTree = "<group>"; };
 		9E776A3313D81A4B0075B5BC /* CampfireChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CampfireChatTests.m; sourceTree = "<group>"; };
 		9E776A3513D81A4B0075B5BC /* CampfireChatTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CampfireChatTests-Prefix.pch"; sourceTree = "<group>"; };
+		9EEF88E613D8EAF500DEEA23 /* CFCRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCRequest.h; sourceTree = "<group>"; };
+		9EEF88E713D8EAF500DEEA23 /* CFCRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 				9E776A0D13D809AB0075B5BC /* Supporting Files */,
 				9E776A1813D80EAC0075B5BC /* CFCPlugIn.h */,
 				9E776A1913D80EAC0075B5BC /* CFCPlugIn.m */,
+				9EEF88E613D8EAF500DEEA23 /* CFCRequest.h */,
+				9EEF88E713D8EAF500DEEA23 /* CFCRequest.m */,
 				9E776A1E13D8147B0075B5BC /* Unit Tests */,
 			);
 			path = CampfireChat;
@@ -271,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E776A1A13D80EAC0075B5BC /* CFCPlugIn.m in Sources */,
+				9EEF88E813D8EAF500DEEA23 /* CFCRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +288,7 @@
 				9E776A3413D81A4B0075B5BC /* CampfireChatTests.m in Sources */,
 				9E776A3913D81A510075B5BC /* TestAccountAPI.m in Sources */,
 				9E776A3F13D81B2B0075B5BC /* CFCPlugIn.m in Sources */,
+				9EEF88E913D8EAF500DEEA23 /* CFCRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
