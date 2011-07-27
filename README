@@ -1,1 +1,12 @@
 .imserviceplugin for iChat which allows people to talk in Campfire rooms.
+
+The IMServicePlugin API and Campfire are not suited for each other. There are several design paradigms which are not compatible between the two. I am doing this to help people produce IMServicePlugin bundles and fill in the documentation vacuum left by Apple.
+
+API documentation can be found here: http://developer.37signals.com/campfire/index
+
+Plugin must be manually installed in /Library/iChat/PlugIns/
+
+Username = <Campfire API key>
+Server = "https://domain.campfirenow.com"
+
+Currently, iChat arguably allows me to add a CampfireChat account but it does not seem to interact with my plugin. I suspect this is because I have tested debug builds of the product without code sign signature embedded.
