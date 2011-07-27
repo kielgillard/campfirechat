@@ -30,8 +30,6 @@
     if ((self = [super init])) {
         requests = [[NSMutableSet alloc] initWithCapacity:1];
         iChatInterface = [serviceApplication retain];
-        server = @"https://ko.campfirenow.com/";
-        authenticationToken = @"2377aee6086c61880586396725fc1a394ad69571";
     }
     
     return self;
@@ -71,7 +69,7 @@
  */
 - (oneway void) updateAccountSettings:(NSDictionary *)accountSettings
 {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+    NSLog(@"%s %@", __PRETTY_FUNCTION__, accountSettings);
     //port, ssl ignored
     
     //server = https://ko.campfirenow.com/
